@@ -116,6 +116,7 @@ function Rain:update()
   end
 
   self.row = self.row + self.speed * 0.5
+
   if math.floor(self.row) == self.row then
     self.col = self.col + dx
   end

@@ -2,7 +2,12 @@
 
 Fun little plugin that can be used as a screensaver and on your dashboard.
 
-[rain.webm](https://user-images.githubusercontent.com/292349/198708737-a1d2d24a-1faa-40f1-9c6d-ca13c60290b7.webm)
+<!-- markdownlint-disable MD033 -->
+<video autoplay loop muted playsinline width="700">
+  <source src="assets/snow.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<!-- markdownlint-enable MD033 -->
 
 ## Features
 
@@ -166,6 +171,7 @@ The `wind` option controls the horizontal movement of drops:
 You can customize the appearance of the rain effect by:
 
 1. Creating your own theme:
+
 ```lua
 require("rain").setup({
   theme = {
@@ -175,9 +181,14 @@ require("rain").setup({
 })
 ```
 
-2. Adding custom highlight groups:
+1. Adding custom highlight groups:
+
 ```lua
 vim.api.nvim_set_hl(0, "Rain1", { fg = "#88ccff" })
 vim.api.nvim_set_hl(0, "Rain2", { fg = "#66aaff" })
 vim.api.nvim_set_hl(0, "Rain3", { fg = "#44aaff" })
 ```
+
+## 📝 License
+
+MIT
