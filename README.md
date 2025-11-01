@@ -2,12 +2,7 @@
 
 Fun little plugin that can be used as a screensaver and on your dashboard.
 
-<!-- markdownlint-disable MD033 -->
-<video autoplay loop muted playsinline width="700">
-  <source src="assets/snow.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-<!-- markdownlint-enable MD033 -->
+![Rain demo](assets/snow.webp)
 
 ## Features
 
