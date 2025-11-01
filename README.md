@@ -2,7 +2,7 @@
 
 Fun little plugin that can be used as a screensaver and on your dashboard.
 
-![Rain demo](assets/snow.webp)
+![Rain demo](https://raw.githubusercontent.com/igorktech/rain.nvim/main/assets/snow.webp)
 
 ## Features
 
@@ -12,6 +12,8 @@ Fun little plugin that can be used as a screensaver and on your dashboard.
   - [dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
 - Runs as a screen-saver when there is no activity for a specified amount of time.
 - Holiday theme switcher with default holidays that can be overridden.
+
+[Full video (MP4)](https://raw.githubusercontent.com/igorktech/rain.nvim/main/assets/snow.mp4)
 
 ## Available Themes
 
